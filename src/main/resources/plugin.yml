@@ -4,3 +4,7 @@ main: cz.vse.fis.minecraft.sortinventory.SortInventory
 api-version: 1.16
 authors: [ 0x4a69726b61 ]
 description: Sorting inventory
+commands:
+  sort-inventory:
+    description: Sort your inventory
+    usage: /<command>

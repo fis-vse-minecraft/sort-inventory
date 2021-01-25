@@ -6,6 +6,7 @@ import org.bukkit.plugin.java.JavaPlugin
 
 class SortInventory : JavaPlugin() {
     override fun onEnable() {
+        getCommand("sort-inventory")?.setExecutor(this)
     }
 
     override fun onCommand(sender: CommandSender, command: Command, label: String, args: Array<out String>): Boolean {
