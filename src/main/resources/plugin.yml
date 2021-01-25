@@ -1,0 +1,6 @@
+name: Sort Inventory
+version: ${project.version}
+main: cz.vse.fis.minecraft.sortinventory.SortInventory
+api-version: 1.16
+authors: [ 0x4a69726b61 ]
+description: Sorting inventory
